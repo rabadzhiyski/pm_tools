@@ -14,7 +14,7 @@ class Inputs:
     
     Attributes:
         ppc (float) = planned percent completed 
-        budget (int) = the budget of the project in int
+        budget (int) = the budget of the project
         apc (float) = actual percent completed of the project
         ac (int)= actual cost of the project 
     

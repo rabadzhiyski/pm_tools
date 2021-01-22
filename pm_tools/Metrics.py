@@ -54,7 +54,7 @@ class Metrics(Inputs):
             
         """ 
        
-        return self.ac * self.budget
+        return self.apc * self.budget
        
 # schedule_variance = earned_value - planned_value
     def schedule_variance(self):
@@ -70,7 +70,7 @@ class Metrics(Inputs):
             
         """
        
-        ev = self.ac * self.budget
+        ev = self.apc * self.budget
         pv = self.ppc * self.budget
        
         return ev - pv
@@ -89,7 +89,7 @@ class Metrics(Inputs):
             
         """
         
-        ev = self.ac * self.budget
+        ev = self.apc * self.budget
         
         return ev - self.ac
         
@@ -107,7 +107,7 @@ class Metrics(Inputs):
             
         """
         
-        ev = self.ac * self.budget
+        ev = self.apc * self.budget
         pv = self.ppc * self.budget
         
         return ev / pv
@@ -122,10 +122,10 @@ class Metrics(Inputs):
             None
         
         Returns:
-            int: earned value - actual cost
+            int: earned value / actual cost
             
         """
         
-        ev = self.ac * self.budget
+        ev = self.apc * self.budget
         
         return ev / self.ac
