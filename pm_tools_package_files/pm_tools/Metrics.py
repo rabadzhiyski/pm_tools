@@ -1,4 +1,4 @@
-from General import Inputs
+from .General import Inputs
 
 """
 This is a script file for calculating the most
