@@ -8,7 +8,7 @@ The repository contains the installation package and a jupyter file for those wh
 
 pip install pm-tools
 
-## How to use it the tool
+## How to use the tool
 
 1. **Import the libraries**
 
