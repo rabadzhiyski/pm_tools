@@ -1,4 +1,4 @@
-# pm_tools - project management metrics
+# Project Management Metrics - pm_tools
 The tool calculates the most popular metrics in traditional/predictive project management (aka "Waterfall"). All you need to do is to run it and after that call "Metrics()" with the respective inputs: **planned percent complete (float), budget (int), actual percent complete (float), actual cost (int).** 
 
 ## Contents
@@ -11,9 +11,11 @@ pip install pm-tools
 ## How to use it the tool
 
 1. **Import the libraries**
+
 from pm_tools import Metrics
 
 2. **Create a variable with the respective inputs** (planned percent complete, budget, actual percent complete, actual cost), **the input order is important!**
+
 milestone_1 = Metrics(0.5, 100000, 0.4, 20000)
 
 2. **Call the available metrics:**
