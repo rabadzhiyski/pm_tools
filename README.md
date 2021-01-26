@@ -18,7 +18,7 @@ from pm_tools import Metrics
 
 milestone_1 = Metrics(0.5, 100000, 0.4, 20000)
 
-2. **Call the available metrics:**
+3. **Call the available metrics:**
 - milestone_1.planned_value()
 - milestone_1.earned_value()
 - milestone_1.schedule_variance()
