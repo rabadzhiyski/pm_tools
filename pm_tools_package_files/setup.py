@@ -3,7 +3,7 @@
 from setuptools import setup
 
 setup(name='pm_tools',
-      version='0.1',
+      version='0.3',
       description='Project Management Metrics',
       packages=['pm_tools'],
       author = "Plamen Rabadzhiyski",
