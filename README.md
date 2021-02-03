@@ -6,25 +6,31 @@ The repository contains the installation package and a jupyter file for those wh
 
 ## Installation
 
-pip install pm-tools
+`pip install pm-tools`
 
 ## How to use the tool
 
 1. **Import the libraries**
 
-from pm_tools import Metrics
+`from pm_tools import Metrics`
 
 2. **Create a variable with the respective inputs** (planned percent complete, budget, actual percent complete, actual cost), **the input order is important!**
 
-milestone_1 = Metrics(0.5, 100000, 0.4, 20000)
+`milestone_1 = Metrics(0.5, 100000, 0.4, 20000)`
 
 3. **Call the available metrics:**
-- milestone_1.planned_value()
-- milestone_1.earned_value()
-- milestone_1.schedule_variance()
-- milestone_1.cost_variance()
-- milestone_1.schedule_perf_index()
-- milestone_1.cost_perf_index()
+
+`milestone_1.planned_value()`
+
+`milestone_1.earned_value()`
+
+`milestone_1.schedule_variance()`
+
+`milestone_1.cost_variance()`
+
+`milestone_1.schedule_perf_index()`
+
+`milestone_1.cost_perf_index()`
 
 ## A few hints how to read the metrics/results:
 
